@@ -1,0 +1,59 @@
+
+/* Define custom properties */
+:root {
+  --color-primary: #d73953;                 /* Primary color */
+  --color-black: #090909;                   /* Black color */
+  --color-light-grey: #f3f3f3;              /* Light grey color */
+  --color-white: #ffffff;                   /* White color */
+  --color-dark-grey: #353535;               /* Dark grey color */
+  --text-color: var(--color-black);         /* Text color */
+  --font-family-base: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif; /* Base font family */
+  --font-family-title: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif; /* Title font family */
+  --font-size-small: 1.2rem;                /* Small font size */
+  --font-size-medium: 1.6rem;               /* Medium font size */
+  --font-size-xx-large: 4.8rem;             /* Extra Extra Large font size */
+  --font-size-x-large: 2.3rem;              /* Extra Large font size */
+  --font-size-large: 1.8rem;                /* Large font size */
+  --font-weight-regular: 400;               /* Regular font weight */
+  --font-weight-bold: 700;                  /* Bold font weight */
+  --line-height-small: 1.2;                 /* Small line height */
+  --line-height-base: 1.5;                  /* Base line height */
+  --line-height-big: 1.8;                   /* Big line height */
+}
+
+/* Global styles */
+html {
+  scroll-behavior: smooth;                  /* Smooth scrolling behavior */
+  font-size: 62.5%;                         /* Set base font size to 10px */
+}
+
+body {
+  color: var(--text-color);                 /* Text color */
+  font-family: var(--font-family-base);      /* Base font family */
+  font-size: var(--font-size-medium);        /* Medium font size */
+  font-weight: var(--font-weight-regular);   /* Regular font weight */
+  line-height: var(--line-height-base);      /* Base line height */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);     /* Title font family */
+  font-weight: var(--font-weight-bold);      /* Bold font weight */
+}
+
+a {
+  color: var(--text-color);                  /* Text color */
+  text-decoration: none;                     /* Remove text decoration */
+}
+
+/* Other selectors and styles */
+.visually-hidden {
+  display: none;                             /* Hide visually-hidden elements */
+}
+
+.card-category {
+  color: var(--color-primary);               /* Primary color */
+}
+
+.section-tagline {
+  color: var(--color-primary);               /* Primary color */
+}
