@@ -1,0 +1,90 @@
+
+/* Set smooth scroll behavior for the HTML element */
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%; /* Set base font size to 10px */
+  font-weight: var(--font-weight-regular); /* Global font weight */
+}
+
+/* Global styles for the body */
+body {
+  color: var(--text-color); /* Global text color */
+  font-family: var(--font-family-base); /* Global font family */
+  font-size: var(--font-size-medium); /* Global font size */
+  line-height: var(--line-height-base); /* Global line height */
+}
+
+/* Heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-title); /* Heading font family */
+  font-weight: var(--font-weight-bold); /* Heading font weight */
+}
+
+/* Anchor link styles */
+a {
+  color: var(--text-color); /* Anchor link color */
+  text-decoration: none; /* Remove text decoration from anchor links */
+}
+
+/* Visually hidden class for screen readers */
+.visually-hidden {
+  display: none; /* Hide visually-hidden elements */
+}
+
+/* Card category styles */
+.card-category {
+  color: var(--color-primary); /* Color for card category */
+}
+
+/* Section header styles */
+.section-header {
+  margin: var(--section-header-align); /* Horizontal alignment for section header */
+}
+
+/* Section title styles */
+.section-title {
+  font-family: var(--font-family-title); /* Section title font family */
+  font-size: var(--font-size-xx-large); /* Section title font size */
+  font-weight: var(--font-weight-bold); /* Section title font weight */
+  margin: var(--section-title-margin); /* Margin for section title */
+  color: var(--section-title-color); /* Color for section title */
+}
+
+/* Section tagline styles */
+.section-tagline {
+  color: var(--color-primary); /* Color for section tagline */
+  font-family: var(--font-family-title); /* Section tagline font family */
+  text-transform: var(--section-tagline-transform); /* Transform section tagline text */
+  font-weight: var(--font-weight-bold); /* Section tagline font weight */
+}
+
+/* Custom properties */
+:root {
+  --color-primary: #d73953; /* Primary color */
+  --color-black: #090909; /* Black color */
+  --color-white: #ffffff; /* White color */
+  --color-light-grey: #f3f3f3; /* Light grey color */
+  --color-dark-grey: #353535; /* Dark grey color */
+  --text-color: var(--color-black); /* Default text color */
+  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Base font family */
+  --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif; /* Title font family */
+  --font-size-small: 1.2rem; /* Small font size */
+  --font-size-medium: 1.6rem; /* Medium font size */
+  --font-size-large: 1.8rem; /* Large font size */
+  --font-size-x-large: 2.3rem; /* Extra Large font size */
+  --font-size-xx-large: 4.8rem; /* Extra Extra Large font size */
+  --font-weight-regular: 400; /* Regular font weight */
+  --font-weight-bold: 700; /* Bold font weight */
+  --line-height-small: 1.2; /* Small line height */
+  --line-height-base: 1-5; /* Base line height (Note: There seems to be a typo here, should be 1.5 instead of 1-5) */
+  --line-height-big: 1.8; /* Big line height */
+  --section-header-align: center; /* Section header horizontal alignment */
+  --section-tagline-transform: uppercase; /* Transform style for section tagline text */
+  --section-title-margin: 0; /* Margin for section title */
+  --section-title-color: var(--color-black); /* Color for section title */
+}
